@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://codeup.aliyun.com/6510234c67559243daa2fd69/wongkai9453/config.git
+          search-paths: configtest
+          username: wangkai1817
+          password: qw123456
+        label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
