@@ -10,7 +10,7 @@
     <artifactId>springCloudgateway</artifactId>
 
     <name>springCloudgateway</name>
-
+	<!-- 编码格式utf-8  -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
