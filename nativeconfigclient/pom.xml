@@ -10,7 +10,7 @@
     <artifactId>nativeconfigclient</artifactId>
 
     <name>nativeconfigclient</name>
-
+	<!-- 编码格式UTF-8  -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
